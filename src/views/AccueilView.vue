@@ -116,7 +116,7 @@
 
   <div class="-mt-72 grid justify-items-center lg:-mt-40">
     <div class="field">
-      <div class="mouse opacity-20"></div>
+      <div class="mouse opacity-20"></div> 
     </div>
   </div>
 
