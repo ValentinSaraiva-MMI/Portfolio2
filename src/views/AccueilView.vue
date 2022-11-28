@@ -235,7 +235,7 @@
       </svg>
     </div>
     <div class="md:mb-4">
-      <cardComponent class="fill-white text-white" nom="Wordpress" image="/src/components/icons/icons-competences/wordpress.svg" />
+      <cardComponent class="fill-white text-white" nom="Wordpress" image="icons-competences/wordpress.svg" />
       <svg class="-mt-6 mb-20 sm:-mt-20 xl:mt-2" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" />
         <rect width="66.097" height="8.02148" fill="white" />
@@ -250,14 +250,14 @@
       </svg>
     </div>
     <div class="mt-16 md:mb-5 xl:mt-0">
-      <cardComponent class="fill-white text-white" nom="Microsoft 365 " image="/src/components/icons/icons-competences/msoffice.svg" />
+      <cardComponent class="fill-white text-white" nom="Microsoft 365 " image="/components/icons/icons-competences/msoffice.svg" />
       <svg class="-mt-6 mb-20 sm:-mt-20 xl:mt-2" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" stroke-linejoin="bevel" />
         <rect width="132.194" height="8.02148" fill="white" />
       </svg>
     </div>
     <div class="sm:mb-14 md:mb-4">
-      <cardComponent class="fill-white text-white" nom="Firebase" image="/src/components/icons/icons-competences/firebase.svg" />
+      <cardComponent class="fill-white text-white" nom="Firebase" image="/icons/icons-competences/firebase.svg" />
       <svg class="-mt-6 mb-4 sm:-mt-20 xl:mt-2" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.945801" y="1.24121" width="164.242" height="7.02148" stroke="white" />
         <rect x="0.445801" y="0.741211" width="49.8" height="8.02148" fill="white" />
@@ -265,7 +265,7 @@
     </div>
 
     <div class="mt-16 sm:mt-0 md:mb-4 md:mt-10 xl:mt-0">
-      <cardComponent class="fill-white text-white" nom="Microsoft Azure" image="/src/components/icons/icons-competences/azure.svg" />
+      <cardComponent class="fill-white text-white" nom="Microsoft Azure" image="/icons-competences/azure.svg" />
       <svg class="-mt-6 mb-4 sm:-mt-20 xl:mt-2" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.945801" y="1.24121" width="164.242" height="7.02148" stroke="white" />
         <rect x="0.445801" y="0.741211" width="49.8" height="8.02148" fill="white" />
