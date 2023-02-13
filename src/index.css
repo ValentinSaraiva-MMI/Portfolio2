@@ -49,10 +49,6 @@ h1 {
   -webkit-text-stroke: 1.5px white;
 }
 
-.fake-chevron {
-  position: relative;
-  left: 30%;
-}
 
 .fake-chevron::before {
   content: "</";
@@ -61,6 +57,9 @@ h1 {
 .fake-chevron::after {
   content: ">";
 }
+
+
+
 
 .svg-download:hover {
   fill: black;
@@ -191,7 +190,8 @@ a.viewmore:hover .arrow {
 }
 
 .svg-hover:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .svg-hover {
