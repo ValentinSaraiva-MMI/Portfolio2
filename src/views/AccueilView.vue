@@ -3,7 +3,7 @@
   
 
   <div class="w-11/12 mx-auto">
-    <h4 class="text-white font-montserrat text-4xl  font-medium text-right ">Bonjour jee suis </h4>
+    <h4 class="text-white font-montserrat text-4xl  font-medium text-right ">Bonjour je suis </h4>
     <div class="text-right leading-8    flex justify-between">
       <div class="basis-5/12 mt-5 relative">
         <img  class="z-20 absolute"  src="public/images/valentinblack.webp" alt="Image de moi ">
