@@ -12,6 +12,7 @@ module.exports = {
         montserrat: "Montserrat",
         oswald: "Oswald",
         lato: "Lato",
+
         // Ici vos familles de polices exportées de Figma
         // Ne pas oublier de les charger dans '/index.html' !
       },

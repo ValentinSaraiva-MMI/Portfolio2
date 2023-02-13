@@ -1,5 +1,6 @@
 <template>
   <a name="top"></a>
+
   <div class="bg-noir">
     <div class="inline-flex w-full">
       <RouterLink class="my-auto" to="/">
@@ -7,9 +8,13 @@
       </RouterLink>
       <navbar />
     </div>
-    <!--NETLIFY INFOMANIAK-->
+
+    
+  
     <router-view />
   </div>
+
+
 </template>
 
 <script>
