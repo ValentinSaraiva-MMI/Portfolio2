@@ -4,17 +4,17 @@
   <div class="bg-noir">
     <div class="inline-flex w-full">
       <RouterLink class="my-auto" to="/">
-        <logo-valentin class="ml-3 w-14" />
+        <logo-valentin class="ml-3 mt-3 md:mt-0 w-14" />
       </RouterLink>
+      <div class="cursor"></div>
       <navbar />
     </div>
 
-    
-  
+
+
+
     <router-view />
   </div>
-
-
 </template>
 
 <script>
