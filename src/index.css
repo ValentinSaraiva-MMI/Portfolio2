@@ -286,8 +286,37 @@ nav {
 
 
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
 
-@media (max-width: 1024px) {}
+  .camatchimage {
+    width: 20%;
+  }
 
-@media (max-width: 1280px) {}
+}
+
+@media (max-width: 1024px) {
+
+  .camatchimage {
+    width: 20%;
+  }
+
+}
+
+@media (max-width: 1280px) {
+
+
+  .camatchimage {
+    width: 20%;
+  }
+
+}
+
+
+@media (max-width: 1536px) {
+
+
+  .camatchimage {
+    width: 20%;
+  }
+
+}
