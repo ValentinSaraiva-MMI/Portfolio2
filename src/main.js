@@ -6,18 +6,18 @@ import './index.css'
 
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyA3QM0mDy0rTTDvw6TIC50tAPDMLY2f9yU",
-    authDomain: "festivalrampagesae.firebaseapp.com",
-    projectId: "festivalrampagesae",
-    storageBucket: "festivalrampagesae.appspot.com",
-    messagingSenderId: "80970167034",
-    appId: "1:80970167034:web:70fa15102cd53863954f43"
+    apiKey: "AIzaSyB1ZRLTM-kSDmK-Zn-jyQPfpiGSxgDc_Ww",
+    authDomain: "portfolio-valentin-saraiva.firebaseapp.com",
+    projectId: "portfolio-valentin-saraiva",
+    storageBucket: "portfolio-valentin-saraiva.appspot.com",
+    messagingSenderId: "820202479447",
+    appId: "1:820202479447:web:20d20dc989e587f509e812"
 };
 
 // Initialize Firebase
@@ -41,6 +41,7 @@ function cursor(e) {
     mouseCursor.style.top = e.pageY + 'px';
     mouseCursor.style.left = e.pageX + 'px';
 }
+
 
 navLinks.forEach(link => {
     link.addEventListener("mouseleave", () => {

@@ -12,6 +12,14 @@ body {
 
 }
 
+
+
+.disparait {
+  display: none;
+}
+
+
+
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -67,7 +75,6 @@ h1 {
 
 
 
-
 .svg-download:hover {
   fill: black;
 }
@@ -86,6 +93,7 @@ h1 {
   border: 3px solid #fff;
   border-radius: 60px;
   position: relative;
+
 }
 
 .mouse::before {
@@ -298,6 +306,12 @@ nav {
 
   .camatchimage {
     width: 20%;
+
+  }
+
+
+  .footer_column {
+    columns: 2;
   }
 
 }

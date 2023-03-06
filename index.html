@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <script src="https://kit.fontawesome.com/dc3c2d49f9.js" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="main.css">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&display=swap"
@@ -26,9 +28,46 @@
 </head>
 
 <body>
+  <div id="loader">
+    <div class="preloader">
+      <div class="counter">0</div>
+    </div>
+  </div>
 
   <div id="app"></div>
+
   <script type="module" src="/src/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+
+    function counter() {
+      var count = setInterval(function () {
+        var c = parseInt($('.counter').text());
+        $('.counter').text((++c).toString());
+        if (c == 100) {
+          clearInterval(count)
+          $('.counter').addClass('hide')
+          $('.preloader').addClass('active')
+        }
+      }, 10)
+    }
+
+    counter()
+
+
+    setTimeout(function () {
+      document.getElementById('loader').classList.add('disparait');
+    }, 3000);
+
+  </script>
+
+
+
+
+
+
+
 </body>
 
 </html>

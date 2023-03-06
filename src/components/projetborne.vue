@@ -1,6 +1,6 @@
 <template>
   <figure
-    class=" m-4   flex  h-[45vh] w-[55vw]   flex-col sm:bg-pink-400 md:bg-green-500 lg:bg-blue-500  xl:bg-red-500 bg-[#141414] md:mx-auto md:h-[56vh] md:w-[35vw] lg:ml-0 lg:h-[59vh] lg:w-[29.8vw] xl:ml-0 xl:h-[59vh] xl:w-[29.8vw]">
+    class=" m-4   flex  h-[45vh] w-[55vw]   flex-col   bg-[#141414] md:mx-auto md:h-[56vh] md:w-[35vw] lg:ml-0 lg:h-[59vh] lg:w-[29.8vw] xl:ml-0 xl:h-[59vh] xl:w-[29.8vw]">
     <div class="ml-4 mt-4">
       <p class="font-lato text-base font-light text-white md:text-base lg:text-base xl:text-base">
         {{ date }}

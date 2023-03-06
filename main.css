@@ -1,0 +1,82 @@
+section h2 {
+    font-size: 1em;
+    color: #4b656d;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #070707;
+    z-index: 1000;
+
+
+}
+
+.preloader:before {
+    content: 'Loading';
+    position: absolute;
+    font-size: 12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .03);
+    font-weight: 200;
+}
+
+.preloader.active {
+
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1s;
+
+
+}
+
+.counter {
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    z-index: 1;
+    font-size: 10em;
+
+}
+
+.counter::after {
+    content: '%';
+    font-size: 0.5em;
+
+}
+
+.hide {
+    opacity: 0;
+    transition: 1s;
+
+}
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .preloader:before {
+        font-size: 10em;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .preloader:before {
+        font-size: 6em;
+    }
+
+}
